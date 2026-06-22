@@ -1,10 +1,10 @@
 # Hi, I'm Rita 👋
 
-**Backend / Platform Architect** — distributed systems, high availability, and DevOps.
+**Senior Backend / Platform Architect** — distributed systems, high availability, and DevOps.
 
 8+ years of industry experience in backend and platform engineering. In recent years I've focused on the architecture side — the decisions that determine whether a system remains fast, maintainable, and operable as it scales and as teams change.
 
-📍 Taiwan · open to **Backend Architect / Platform Architect / Tech Lead** roles.
+📍 Taiwan · open to **Senior Backend / Platform Architect / Tech Lead** roles.
 
 ---
 
@@ -24,8 +24,6 @@ Reference projects — each one documents *how I reason*, not just what was buil
 | 🔭 [**distributed-tracing-reference**](https://github.com/JHying/distributed-tracing-reference) | End-to-end OpenTelemetry context propagation across HTTP, WebSocket, thread pools, and schedulers — including a version tag that doubles as W3C baggage and an Istio routing header. |
 | 🧩 [**db-as-code**](https://github.com/JHying/db-as-code) | Flagship reference: a schema-as-code workflow with CI gates, squash-mode source of truth, Expand–Contract zero-downtime migrations, and a two-layer Entity↔schema contract test. |
 
-> "The goal of software architecture is to minimize the human resources required to build and maintain the required system." — Robert C. Martin
-
 ### How I approach systems
 
 - **Evaluate decisions across layers.** Architecture choices ripple — a service boundary decision affects the data layer, the deployment pipeline, and how SRE on-calls at 3 AM. I try to reason through those cross-cutting impacts before they become incidents.
@@ -34,5 +32,7 @@ Reference projects — each one documents *how I reason*, not just what was buil
 - **Architecture is a long-term investment.** A system that ships fast but can't be maintained, extended, or trusted under failure isn't a success. I treat maintainability, extensibility, and reliability as first-class concerns — not things to retrofit later.
 
 ---
+
+> "The goal of software architecture is to minimize the human resources required to build and maintain the required system." — Robert C. Martin
 
 ✉️  Email: ritahying@gmail.com

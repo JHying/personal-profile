@@ -25,7 +25,7 @@ Reference projects, each documents *how I reason*, not just what was built — d
 | 🔭 [**distributed-tracing-reference**](https://github.com/JHying/distributed-tracing-reference) | End-to-end OpenTelemetry context propagation across HTTP, WebSocket, thread pools and schedulers — including a version tag that doubles as W3C baggage and an Istio routing header. |
 | 🧩 [**db-as-code**](https://github.com/JHying/db-as-code) | Flagship reference: a schema-as-code workflow with CI gates, squash-mode source of truth, Expand–Contract zero-downtime migrations, and a two-layer Entity↔schema contract test. |
 
-> Decisions over opinions, data over assertions, honest scope over inflated claims.
+> "The goal of software architecture is to minimize the human resources required to build and maintain the required system." — Robert C. Martin
 
 ### How I approach systems
 

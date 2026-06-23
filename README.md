@@ -20,9 +20,10 @@ Reference projects — each one documents *how I reason*, not just what was buil
 
 | Repository | What it shows |
 |------------|---------------|
-| 📐 [**architecture-decision-records**](https://github.com/JHying/architecture-decision-records) | A curated set of MADR-format ADRs from real platform decisions — covering service discovery, container selection (with benchmark data), and repository strategy. Each ADR documents not just the decision, but what was ruled out and why. |
+| 📐 [**architecture-decision-records**](https://github.com/JHying/knowledge-hub/tree/main/knowledge/ADRs) | A curated set of MADR-format ADRs from real platform decisions — covering service discovery, container selection (with benchmark data), and repository strategy. Each ADR documents not just the decision, but what was ruled out and why. |
 | 🔭 [**distributed-tracing-reference**](https://github.com/JHying/distributed-tracing-reference) | End-to-end OpenTelemetry context propagation across HTTP, WebSocket, thread pools, and schedulers — including a version tag that doubles as W3C baggage and an Istio routing header. |
 | 🧩 [**db-as-code**](https://github.com/JHying/db-as-code) | Flagship reference: a schema-as-code workflow with CI gates, squash-mode source of truth, Expand–Contract zero-downtime migrations, and a two-layer Entity↔schema contract test. |
+| 🧠 [**knowledge-hub**](https://github.com/JHying/knowledge-hub) | Multi-role AI workshop: Backend, QA, SRE, PM, and Reviewer agents run in parallel on the same story — generating codes, tests, specs, review findings, and deployment notes from their own KB slice via `MASTER_INDEX.md` keyword routing. An `update-kb` skill propagates `pending-file` back into per-project KBs automatically, so accumulated context compounds rather than decays. |
 
 ### How I approach systems
 

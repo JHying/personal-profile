@@ -28,12 +28,12 @@
 
 以下為參考專案——每一個都記錄了「我如何思考」，而不只是「做了什麼」：包含決策過程、權衡取捨，以及維運面的考量。
 
-| Repository | 展示內容 |
-|------------|---------------|
-| 📐 **architecture-decision-records** | 精選的 MADR 格式 ADR 集合，涵蓋真實的平台決策，包括服務發現機制、底層 web 容器選型（附上 benchmark 數據）與 repository 策略。每篇 ADR 不僅說明最終方案，也詳述被否決的替代方案及其原因。 |
-| 🔭 **distributed-tracing-reference** | 涵蓋 HTTP、WebSocket、執行緒池與自啟動排程的端到端 OpenTelemetry context 傳遞機制，其中版本標籤同時作為 W3C baggage 與 Istio 路由標頭使用。 |
-| 🧩 **db-as-code** | 展示 schema-as-code 搭配 CI 品質檢測、squash-mode 整合成單一事實來源（source of truth）、Expand–Contract 零停機遷移，以及兩層式 Entity↔schema contract test。 |
-| 🧠 **knowledge-hub** | 個人的多角色 AI 工程協作庫，基於 SA、Backend、QA、SRE、PM 與 Reviewer agent 等各自角色的工作流，針對同一個 story 協同工作，除了將軟體從開發、review 到測試的流程自動化，也內建自動 KB 建立機制，讓專案知識得以持續累積，而非隨時間流失。 |
+| Repository                                                                                       | 展示內容                                                                                                                                             |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 📐  [**architecture-decision-records**](https://github.com/JHying/architecture-decision-records) | 精選的 MADR 格式 ADR 集合，涵蓋真實的平台決策，包括服務發現機制、底層 web 容器選型（附上 benchmark 數據）與 repository 策略。每篇 ADR 不僅說明最終方案，也詳述被否決的替代方案及其原因。                               |
+| 🔭  [**distributed-tracing-reference**](https://github.com/JHying/distributed-tracing-reference) | 涵蓋 HTTP、WebSocket、執行緒池與自啟動排程的端到端 OpenTelemetry context 傳遞機制，其中版本標籤同時作為 W3C baggage 與 Istio 路由標頭使用。                                               |
+| 🧩 [**db-as-code**](https://github.com/JHying/db-as-code)                                        | 展示 schema-as-code 搭配 CI 品質檢測、squash-mode 整合成單一事實來源（source of truth）、Expand–Contract 零停機遷移，以及兩層式 Entity↔schema contract test。                     |
+| 🧠 [**engineering-hub**](https://github.com/JHying/engineering-hub)                              | 個人的多角色 AI 工程協作庫，基於 SA、Backend、QA、SRE、PM 與 Reviewer agent 等各自角色的工作流，針對同一個 story 協同工作，除了將軟體從開發、review 到測試的流程自動化，也內建自動 KB 建立機制，讓專案知識得以持續累積，而非隨時間流失。 |
 
 ---
 
@@ -87,12 +87,12 @@ From backend engineer to platform architect, specializing in architectural moder
 
 Reference projects — each one documents *how I reason*, not just what was built: the decisions, the trade-offs, and the operational considerations.
 
-| Repository | What it shows |
-|------------|---------------|
-| 📐 **architecture-decision-records** | A curated collection of MADR-format ADRs covering real platform decisions, including service discovery, web/servlet container selection (with benchmark data), and repository strategy. Each ADR explains not only the chosen solution, but also the alternatives that were rejected and why. |
-| 🔭 **distributed-tracing-reference** | End-to-end OpenTelemetry context propagation across HTTP, WebSocket, thread pools, and self-triggered schedulers, including a version tag that doubles as W3C baggage and an Istio routing header. |
-| 🧩 **db-as-code** | Flagship reference demonstrating schema-as-code with CI quality checks, squash-mode consolidation into a single source of truth, Expand–Contract zero-downtime migrations, and a two-layer Entity↔schema contract test. |
-| 🧠 **knowledge-hub** | A personal multi-role AI engineering collaboration framework, where SA, Backend, QA, SRE, PM, and Reviewer agents work through role-specific workflows on the same story. Beyond automating the flow from development and review through testing, it includes an automatic KB-building mechanism so project knowledge compounds rather than decays. |
+| Repository                                                                                       | What it shows                                                                                                                                                                                                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 📐  [**architecture-decision-records**](https://github.com/JHying/architecture-decision-records) | A curated collection of MADR-format ADRs covering real platform decisions, including service discovery, web/servlet container selection (with benchmark data), and repository strategy. Each ADR explains not only the chosen solution, but also the alternatives that were rejected and why.                                                       |
+| 🔭  [**distributed-tracing-reference**](https://github.com/JHying/distributed-tracing-reference) | End-to-end OpenTelemetry context propagation across HTTP, WebSocket, thread pools, and self-triggered schedulers, including a version tag that doubles as W3C baggage and an Istio routing header.                                                                                                                                                  |
+| 🧩 [**db-as-code**](https://github.com/JHying/db-as-code)                                        | Flagship reference demonstrating schema-as-code with CI quality checks, squash-mode consolidation into a single source of truth, Expand–Contract zero-downtime migrations, and a two-layer Entity↔schema contract test.                                                                                                                             |
+| 🧠 [**engineering-hub**](https://github.com/JHying/engineering-hub)                              | A personal multi-role AI engineering collaboration framework, where SA, Backend, QA, SRE, PM, and Reviewer agents work through role-specific workflows on the same story. Beyond automating the flow from development and review through testing, it includes an automatic KB-building mechanism so project knowledge compounds rather than decays. |
 
 ---
 

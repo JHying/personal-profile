@@ -53,9 +53,9 @@
 
 ---
 
-> "The goal of software architecture is to minimize the human resources required to build and maintain the required system." — Robert C. Martin
+ 重構是架構的演進，而不只是程式碼的整理：在讓系統更容易被理解、擴展與維運的同時，又不改變原本商業邏輯的行為與底層設計。
 
-重構是架構的演進，而不只是程式碼的整理：在讓系統更容易被理解、擴展與維運的同時，又不改變原本商業邏輯的行為與底層設計。
+> "The goal of software architecture is to minimize the human resources required to build and maintain the required system." — Robert C. Martin
 
 ✉️ Email: ritahying@gmail.com
 
@@ -112,8 +112,8 @@ Reference projects — each one documents *how I reason*, not just what was buil
 
 ---
 
-> "The goal of software architecture is to minimize the human resources required to build and maintain the required system." — Robert C. Martin
+ I view refactoring as architectural evolution rather than code cleanup — making systems easier to understand, extend, and operate, while preserving the original business logic's behavior and underlying design.
 
-I view refactoring as architectural evolution rather than code cleanup — making systems easier to understand, extend, and operate, while preserving the original business logic's behavior and underlying design.
+> "The goal of software architecture is to minimize the human resources required to build and maintain the required system." — Robert C. Martin
 
 ✉️ Email: ritahying@gmail.com

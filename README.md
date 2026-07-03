@@ -1,53 +1,8 @@
-# Hi, I'm Rita 👋
-
-**Senior Backend / Platform Architect** — distributed systems, high availability, and DevOps.
-
-From backend engineer to platform architect, specializing in architectural modernization of large Java systems—from legacy monoliths to observable, maintainable, and evolvable platforms. I enjoy transforming complex systems into maintainable architectures through thoughtful design, reusable abstractions, and operational excellence.
-
-📍 Taiwan · open to **Senior Backend / Platform Architect / Tech Lead** roles.
+[English](#english) | [繁體中文](#繁體中文)
 
 ---
 
-### What I work on
-
-- **Platform architecture & technical leadership** — leading microservice decomposition and cross-cutting technical decisions, from service boundaries and technology selection to deployment safety and data consistency. I approach architecture as a series of long-term trade-offs, documenting important decisions with ADRs so the reasoning survives beyond the meeting.
-
-- **System modernization & large-scale refactoring** — modernizing legacy Java systems by understanding framework internals rather than relying on automated migration tools. I've migrated Servlet-based applications into idiomatic Spring Boot architectures while preserving existing business behavior, and reorganized systems into clear layered architectures where business logic had previously been scattered across multiple layers. During the process, I extracted repeated workflows into reusable abstractions using patterns such as Factory and Aggregator, significantly reducing duplication and improving long-term maintainability and extensibility.
-
-- **Observability & operability** — building end-to-end tracing with OpenTelemetry across the boundaries automatic instrumentation doesn't cover (WebSocket, thread pools, schedulers), surfaced through the Grafana stack. I believe a system isn't finished until it's observable, diagnosable, and operable in production.
-
-- **Engineering standards & developer experience** — collaborating across Backend, SRE, QA, and PM to establish engineering practices such as schema-as-code, contract testing, quality gates, and LLM-assisted development workflows. I enjoy turning repeated engineering tasks into reusable standards that improve consistency across teams.
-
----
-
-### Selected work
-
-Reference projects — each one documents *how I reason*, not just what was built: the decisions, the trade-offs, and the operational considerations.
-
-| Repository | What it shows |
-|------------|---------------|
-| 📐 **architecture-decision-records** | A curated collection of MADR-format ADRs covering real platform decisions, including service discovery, container selection (with benchmark data), and repository strategy. Each ADR explains not only the chosen solution, but also the alternatives that were rejected and why. |
-| 🔭 **distributed-tracing-reference** | End-to-end OpenTelemetry context propagation across HTTP, WebSocket, thread pools, and schedulers, including a version tag that doubles as W3C baggage and an Istio routing header. |
-| 🧩 **db-as-code** | Flagship reference demonstrating schema-as-code with CI quality gates, squash-mode source of truth, Expand–Contract zero-downtime migrations, and a two-layer Entity↔schema contract test. |
-| 🧠 **knowledge-hub** | Multi-role AI engineering workflow where Backend, QA, SRE, PM, and Reviewer agents collaborate on the same story using role-specific knowledge bases. Includes automatic KB propagation so project knowledge compounds rather than decays. |
-
----
-
-### How I approach systems
-
-- **Evaluate decisions across layers.** Architecture decisions ripple across application code, data models, deployment pipelines, and production operations. I try to understand those cross-cutting impacts before they become incidents.
-
-- **Design for people as much as systems.** Fast software that nobody can safely understand, modify, or debug isn't finished. Maintainability, observability, and operational safety are first-class design goals.
-
-- **Reduce duplication through abstraction.** I actively look for repeated business workflows, deployment logic, and infrastructure patterns that can be turned into reusable building blocks. Less duplication means lower maintenance cost and more consistent systems.
-
-- **Modernize instead of mechanically rewriting.** Legacy systems often contain years of accumulated business knowledge. I prefer preserving proven behavior while evolving architecture into cleaner designs rather than performing direct code translation.
-
-- **Make the reasoning survivable.** Important technical decisions deserve documentation. ADRs, architecture diagrams, and engineering standards ensure knowledge stays with the team rather than the individual.
-
-- **Architecture is a long-term investment.** Shipping features is only part of success. I treat maintainability, extensibility, reliability, and operational excellence as core system qualities from the beginning—not after problems appear.
-
----
+## 繁體中文
 
 # 哈囉，我是 Rita 👋
 
@@ -100,8 +55,65 @@ Reference projects — each one documents *how I reason*, not just what was buil
 
 > "The goal of software architecture is to minimize the human resources required to build and maintain the required system." — Robert C. Martin
 
-I view refactoring as architectural evolution rather than code cleanup—making systems easier to understand, extend, and operate without changing what the business depends on.
-
 重構是架構的演進，而不只是程式碼的整理：在讓系統更容易被理解、擴展與維運的同時，又不改變原本商業邏輯的行為與底層設計。
+
+✉️ Email: ritahying@gmail.com
+
+---
+
+## English
+
+# Hi, I'm Rita 👋
+
+**Senior Backend Engineer / Platform Architect** — distributed systems, high availability, and DevOps.
+
+From backend engineer to platform architect, specializing in architectural modernization of large Java systems—from legacy monoliths to observable, maintainable, and evolvable platforms. I enjoy transforming complex systems into maintainable architectures through thoughtful design, reusable abstractions, and operational excellence.
+
+---
+
+### What I work on
+
+- **Platform architecture & technical leadership** — leading microservice decomposition and cross-cutting technical decisions, from service boundaries and technology selection to deployment safety and data consistency. I approach architecture as a series of long-term trade-offs, documenting important decisions with ADRs so the reasoning survives beyond the meeting.
+
+- **System modernization & large-scale refactoring** — modernizing legacy Java systems by understanding framework internals, at a time before automated (AI-assisted) migration tooling was mature enough for this kind of work, rather than relying on automated tools. I've migrated Servlet-based applications into idiomatic Spring Boot architectures while preserving existing business behavior, and reorganized systems into clear layered architectures where business logic had previously been scattered across multiple layers. During the process, I extracted repeated workflows into reusable abstractions using patterns such as Factory and Aggregator, significantly reducing duplication and improving long-term maintainability and extensibility.
+
+- **Observability & operability** — building end-to-end tracing with OpenTelemetry across the boundaries automatic instrumentation doesn't cover (WebSocket, thread pools, schedulers), surfaced through the Grafana stack. I believe a system isn't finished until it's observable, diagnosable, and operable in production.
+
+- **Engineering standards & developer experience** — collaborating across Backend, SRE, QA, and PM to establish engineering practices such as schema-as-code, contract testing, quality gates, and LLM-assisted development workflows. I enjoy turning repeated engineering tasks into reusable standards that improve consistency across teams.
+
+---
+
+### Selected work
+
+Reference projects — each one documents *how I reason*, not just what was built: the decisions, the trade-offs, and the operational considerations.
+
+| Repository | What it shows |
+|------------|---------------|
+| 📐 **architecture-decision-records** | A curated collection of MADR-format ADRs covering real platform decisions, including service discovery, web/servlet container selection (with benchmark data), and repository strategy. Each ADR explains not only the chosen solution, but also the alternatives that were rejected and why. |
+| 🔭 **distributed-tracing-reference** | End-to-end OpenTelemetry context propagation across HTTP, WebSocket, thread pools, and self-triggered schedulers, including a version tag that doubles as W3C baggage and an Istio routing header. |
+| 🧩 **db-as-code** | Flagship reference demonstrating schema-as-code with CI quality checks, squash-mode consolidation into a single source of truth, Expand–Contract zero-downtime migrations, and a two-layer Entity↔schema contract test. |
+| 🧠 **knowledge-hub** | A personal multi-role AI engineering collaboration framework, where SA, Backend, QA, SRE, PM, and Reviewer agents work through role-specific workflows on the same story. Beyond automating the flow from development and review through testing, it includes an automatic KB-building mechanism so project knowledge compounds rather than decays. |
+
+---
+
+### How I approach systems
+
+- **Evaluate decisions across layers.** Architecture decisions ripple across application code, data models, deployment pipelines, and production operations. I try to understand those cross-cutting impacts before they become incidents.
+
+- **Design for people as much as systems.** Fast software that nobody can safely understand, modify, or debug isn't finished. Maintainability, observability, and operational safety are first-class design goals.
+
+- **Reduce duplication through interface abstraction.** I actively look for repeated business workflows, deployment logic, and infrastructure patterns that can be turned into reusable building blocks. Less duplication means lower maintenance cost and more consistent systems.
+
+- **Modernize instead of mechanically rewriting.** Legacy systems often contain years of accumulated business knowledge. I prefer preserving proven behavior and business logic while evolving architecture into cleaner designs, rather than having AI perform direct code translation.
+
+- **Make the reasoning survivable.** Important technical decisions deserve documentation. ADRs, architecture diagrams, and engineering standards ensure knowledge stays with the team rather than the individual.
+
+- **Architecture is a long-term investment.** Shipping features is only part of success. I treat maintainability, extensibility, reliability, and operational excellence as core system qualities from the beginning—not after problems appear.
+
+---
+
+> "The goal of software architecture is to minimize the human resources required to build and maintain the required system." — Robert C. Martin
+
+I view refactoring as architectural evolution rather than code cleanup — making systems easier to understand, extend, and operate, while preserving the original business logic's behavior and underlying design.
 
 ✉️ Email: ritahying@gmail.com
